@@ -72,21 +72,6 @@ cd tensorflow/
 #Would you like to interactively configure ./WORKSPACE for Android builds? [y/N]:
 #Not configuring the WORKSPACE for Android builds.
 #
-#Preconfigured Bazel build configs. You can use any of the below by adding "--config=<>" to your build command. See .bazelrc for more details.
-#	--config=mkl         	# Build with MKL support.
-#	--config=monolithic  	# Config for mostly static monolithic build.
-#	--config=gdr         	# Build with GDR support.
-#	--config=verbs       	# Build with libverbs support.
-#	--config=ngraph      	# Build with Intel nGraph support.
-#	--config=numa        	# Build with NUMA support.
-#	--config=dynamic_kernels	# (Experimental) Build kernels into separate shared objects.
-#Preconfigured Bazel build configs to DISABLE default on features:
-#	--config=noaws       	# Disable AWS S3 filesystem support.
-#	--config=nogcp       	# Disable GCP support.
-#	--config=nohdfs      	# Disable HDFS support.
-#	--config=noignite    	# Disable Apache Ignite support.
-#	--config=nokafka     	# Disable Apache Kafka support.
-#	--config=nonccl      	# Disable NVIDIA NCCL support.
 #Configuration finished
 ##################################################################################################
 
